@@ -173,17 +173,19 @@ go test ./...
 
 ## Estructura del proyecto
 
+```bash
 booking-api/
-├── controllers/ # Controladores HTTP
-├── models/ # Modelos y estructuras de datos
-├── repositories/ # Acceso a datos
-├── services/ # Lógica de negocio
-├── middlewares/ # Middlewares personalizados
-├── tests/ # Tests unitarios y de integración
-├── utils/ # Utilidades generales
-├── config/ # Configuración y variables de entorno
-├── database/ # Conexión y migraciones a la base de datos
-├── main.go # Archivo principal de la aplicación
-├── .env # Variables de entorno
-├── go.mod # Módulo y dependencias
-└── go.sum # Checksum de dependencias
+├── controllers/     # Controladores HTTP
+├── models/          # Modelos y estructuras de datos
+├── repositories/    # Acceso a datos
+├── services/        # Lógica de negocio
+├── middlewares/     # Middlewares personalizados
+├── tests/           # Tests unitarios y de integración
+├── utils/           # Utilidades generales
+├── config/          # Configuración y variables de entorno
+├── database/        # Conexión y migraciones a la base de datos
+├── main.go          # Archivo principal de la aplicación
+├── .env             # Variables de entorno
+├── go.mod           # Módulo y dependencias
+└── go.sum           # Checksum de dependencias
+```
