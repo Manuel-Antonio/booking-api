@@ -72,6 +72,7 @@ go run main.go
 ```
 http://localhost:3000/register
 ```
+
 Body (JSON):
 ```
 {
@@ -80,6 +81,7 @@ Body (JSON):
     "password": "123456"
 }
 ```
+
 Respuesta esperada (status 200):
 ```
 {
@@ -92,6 +94,7 @@ Respuesta esperada (status 200):
 ```
 http://localhost:3000/login
 ```
+
 Body (JSON):
 ```
 {
@@ -99,6 +102,7 @@ Body (JSON):
   "password": "123456"
 }
 ```
+
 Respuesta esperada (status 200):
 ```
 {
@@ -111,6 +115,7 @@ Respuesta esperada (status 200):
 ```
 http://localhost:3000/reservations
 ```
+
 Body (JSON):
 ```
 {
@@ -119,6 +124,7 @@ Body (JSON):
     "end_time": "16:00"
 }
 ```
+
 Respuesta esperada (status 201):
 ```
 {
@@ -138,6 +144,7 @@ Respuesta esperada (status 201):
 ```
 http://localhost:3000/reservations?date=2025-05-23
 ```
+
 Respuesta esperada (status 201):
 ```
 [
