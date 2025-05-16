@@ -27,6 +27,7 @@ API REST para gestión de reservas, desarrollada en Go usando Fiber, GORM y JWT.
 
 ---
 
+
 ## Instalación
 
 1. Clona el repositorio
@@ -66,6 +67,7 @@ go run main.go
 . Registro y login para obtener token JWT.
 . Endpoints para crear y listar reservas (requieren autenticación).
 
+
 1. URL (POST) - register:
 ```
 http://localhost:3000/register
@@ -85,6 +87,7 @@ Respuesta esperada (status 200):
 }
 ```
 
+
 2. URL (POST) - login:
 ```
 http://localhost:3000/login
@@ -102,6 +105,7 @@ Respuesta esperada (status 200):
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
 }
 ```
+
 
 3. URL (POST) - reservations :
 ```
@@ -128,6 +132,7 @@ Respuesta esperada (status 201):
     "end_time": "17:00"
 }
 ```
+
 
 4. URL (GET) - reservations?date :
 ```
