@@ -30,14 +30,14 @@ API REST para gestión de reservas, desarrollada en Go usando Fiber, GORM y JWT.
 
 ## Instalación
 
-1. Clona el repositorio
+**1. Clona el repositorio
 
 ```bash
 git clone https://github.com/tuusuario/booking-api.git
 cd booking-api
 ```
 
-2.Configura las variables de entorno (ejemplo en .env):
+**2.Configura las variables de entorno (ejemplo en .env):
 
 Puedes crearte un link en Neon.tech y reemplazar el valor del DB_URL
 link de [neon tech](https://neon.tech/)
@@ -52,11 +52,11 @@ DB_URL=postgresql://user:password@host:port/dbname?sslmode=require
 JWT_SECRET=tu_secreto_jwt
 ```
 
-3.Instala las dependencias:
+**3.Instala las dependencias:
 ```
 go mod download
 ```
-4. Inicia la aplicación:
+**4. Inicia la aplicación:
 ```
 go run main.go
 ```
@@ -68,7 +68,7 @@ go run main.go
 . Endpoints para crear y listar reservas (requieren autenticación).
 
 
-1. URL (POST) - register:
+**1. URL (POST) - register:
 ```
 http://localhost:3000/register
 ```
@@ -90,7 +90,7 @@ Respuesta esperada (status 200):
 ```
 
 
-2. URL (POST) - login:
+**2. URL (POST) - login:
 ```
 http://localhost:3000/login
 ```
@@ -111,7 +111,7 @@ Respuesta esperada (status 200):
 ```
 
 
-3. URL (POST) - reservations :
+**3. URL (POST) - reservations :
 ```
 http://localhost:3000/reservations
 ```
@@ -140,7 +140,7 @@ Respuesta esperada (status 201):
 ```
 
 
-4. URL (GET) - reservations?date :
+**4. URL (GET) - reservations?date :
 ```
 http://localhost:3000/reservations?date=2025-05-23
 ```
